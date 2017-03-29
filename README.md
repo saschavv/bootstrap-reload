@@ -39,8 +39,6 @@ $(".panel").reload(options);
 {
 	autoReload: false,
 	time: 3000,
-	refreshContainer: '.refresh-container',
-	dataContainer: '.data-container',
 	beforeReload: function() {},
 	afterReload: function() {}
 }
