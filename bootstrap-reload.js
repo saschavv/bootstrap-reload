@@ -31,7 +31,7 @@
       });
 
       if (self.config.autoReload) {
-          setInterval((() => self.reload()), self.config.time);
+          setInterval(function () { self.reload() }, self.config.time);
           self.reload();
       }
 
